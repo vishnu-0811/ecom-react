@@ -1,0 +1,119 @@
+/* General App Styles */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Custom Navbar Styles */
+
+.custom-navbar {
+  background-image: url('/public/image/header.jpg'); /* Updated path */
+  background-size: cover;
+  background-position: center;
+}
+
+.custom-navbar .nav-link,
+.custom-navbar .dropdown-toggle,
+.custom-navbar .nav-dropdown-item {
+  color: white !important;
+}
+
+.custom-navbar .navbar-brand {
+  color: #E9A401 !important;
+}
+
+.custom-navbar .nav-link .mdb-icon {
+  color: white !important;
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .dropdown-item:hover {
+  color: #E9A401 !important; /* Optional: slightly change color on hover */
+}
+
+/* Home Page Styles */
+.container-fluid-hero {
+  background-image: url('/public/image/herobg.jpg'); /* Updated path */
+  width: auto;
+  background-position: center;
+  min-height: 100vh; /* Ensures background covers entire viewport height */
+}
+
+.container-fluid-section {
+  background-image: url('/public/image/section.png'); /* Updated path */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; /* Ensures background covers entire viewport height */
+}
+
+.hero-banner {
+  width: 100%;
+  max-width: 900px;
+}
+
+.carousel-image {
+  width: 100%;
+}
+
+.card-sale {
+  width: 40rem;
+}
+
+.sale-image {
+  width: 100%;
+  max-width: 300px;
+}
+
+/* New Styles for Text Colors */
+.hero-text-yellow {
+  color: #E9A401;
+  font-size: 20px;
+}
+
+.hero-text-white {
+  color: #FFFFFF;
+  font-size: 70px;
+  margin: 15px 0 12px;
+}
+
+.hero-white {
+  color: #FFFFFF;
+ }
+
+.hero-span {
+  color: #E9A401;
+}
